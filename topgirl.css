@@ -1,0 +1,138 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #CCCCCC;
+}
+td {FONT-SIZE: 9pt;  FONT-FAMILY: "Arial"; color:#666666;letter-spacing : 1pt ;line-height :14pt}
+textarea{border:0px #FFFFFF ;FONT-SIZE: 8pt; COLOR: #999999; FONT-FAMILY: "Arial"}
+input{  border:solid 0 #000000; background-image:url('images/dot.gif'); background-repeat:repeat-x; background-position:bottom; height:18px;FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: "Arial"; }
+select{border:0px; height:14px;FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: "Arial"}
+.jnfont {FONT-SIZE: 10.5pt; FILTER: dropshadow(color=#FFFFFF,offx=1,offy=1); FONT-FAMILY: "Arial"}
+.jnfont1 {FONT-SIZE: 9pt; FILTER: dropshadow(color=#FFFFFF,offx=1,offy=1)}
+.style1 {font-size: 10pt}
+.gbookbg{
+	background-image: url(/img/share/bg.gif);}
+.white12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	text-decoration: none;
+}
+.white12 a:link {
+	color: #666666;
+	text-decoration: none;
+}
+.white12 a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.white12 a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+.indexleftbg {
+	background-image: url(../img/index/leftbg.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.gray11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	color: #666666;
+}
+.gray11 a:link {
+	text-decoration: none;
+	color: #666666;
+}
+.gray11 a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.gray11 a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+.gray12b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 18px;
+}
+
+.pink11_ff9b9b {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	color: #FF0066;
+	text-decoration: none;
+}
+.pink11_ff9b9b a:link {
+	color: #FF3366;
+	text-decoration: underline;
+}
+.pink11_ff9b9b a:visited {
+	color: #FF3366;
+	text-decoration: underline;
+}
+.pink11_ff9b9b a:hover {
+	color: #FF3366;
+	text-decoration: none;
+}
+.productlightbg_menu {
+	background-image: url(../img/product/lightbg_left.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.productlightbg_content {
+	background-image: url(../img/product/lightbg_right.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.white11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	color: #666666;
+	text-decoration: none;
+}
+.white11 a:link {
+	color: #666666;
+	text-decoration: none;
+}
+.white11  a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.white11 a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+.deepgry11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	color: #333333;
+}
+.white22 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.orange13 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #FF6600;
+	text-decoration: none;
+	font-size: 13px;
+}
+.gbookbg {
+	background-image: url(../img/gbook/bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}

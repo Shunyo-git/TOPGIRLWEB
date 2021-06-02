@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_1.master.cs" Inherits="Admin_MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Top Girl 管理後台</title>
+    <link href="/Admin/css/StyleGreen.css" rel="stylesheet" type="text/css" />
+
+    <script language="javascript" src="/Admin/script/Global.js"> </script>
+
+</head>
+<body>
+    <!-- ***** This is the section of code you need to paste into your web pages ***** -->
+    <noscript>
+        <a href="http://www.milonic.com/">JavaScript Menu Powered by Milonic</a></noscript>
+
+    <script type="text/javascript" src="/Admin/menu/milonic_src.js"></script>
+
+    <script type="text/javascript" src="/Admin/menu/mmenudom.js"></script>
+
+    <!-- The next file contains your menu data, links and menu structure etc -->
+
+    <script type="text/javascript" src="/Admin/menu/menu_data.js"></script>
+
+    <!-- **** JavaScript Menu HTML Code -->
+    <a href="http://www.milonic.com/beginner.php">
+        <!--http://www.milonic.com/beginner.php-->
+    </a>
+    <form id="form1" runat="server">
+        <div  >
+            <br />
+            <br />
+            <br />
+            <br />
+            <table id="Table2" cellspacing="0" cellpadding="0" width="790  border="0">
+                <tr>
+                    <td align="right">
+                        &nbsp;登入身分：
+                        <asp:LoginName ID="LoginName1" runat="server" />
+                        &nbsp; (<asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="登 入" LogoutText="登 出" />
+                        )
+                    </td>
+                </tr>
+            </table>
+            <table class="MainTableBorder" id="Table5" cellspacing="1" cellpadding="3" border="0" 
+                >
+                <tr>
+                    <td class="MainTitle" style="height: 23px" height="23">
+                        <font face="新細明體">&nbsp;TOP GIRL 網站管理後台 </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#f0f4e0" align="center">
+                        <font face="新細明體">&nbsp;
+                            <table id="Table11" cellspacing="0" cellpadding="0" width="760" align="center" border="0">
+                                <tr>
+                                    <td align="left" style="height: 12px">
+                                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" RenderCurrentNodeAsLink="True">
+                                        </asp:SiteMapPath>
+                                        &nbsp;
+                                    </td>
+                                    <td align="right" style="height: 12px">
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    <span style="font-size: 16px; color: #ffffff; background-color: #669933"><span style="color: #000000;
+                                        background-color: #ffffff"></span>
+                                        <table id="table1" align="center" border="0" cellpadding="3" cellspacing="1" class="tableBorder"
+                                            style="color: #000000; background-color: #ffffff" width="790">
+                                            <tr>
+                                                <td id="tabletitlelink" align="left" class="TH" height="25">
+                                                    <b>列表</b>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-weight: bold">
+                                                <td align="right" class="Forumrow" style="height: 28px">
+                                                    <font face="新細明體">&nbsp; </font>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-weight: bold">
+                                                <td class="Forumrow">
+                                                    <font face="新細明體"></font>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-weight: bold">
+                                                <td class="Forumrow" style="height: 30px">
+                                                    <font face="新細明體"></font><font face="新細明體" style="background-color: #ffffff"></font>
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </span>
+                                </asp:ContentPlaceHolder>
+                            </p>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+            <iframe name="nosee" width="0" height="0"></iframe>
+        </div>
+    </form>
+</body>
+</html>

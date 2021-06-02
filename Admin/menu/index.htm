@@ -1,0 +1,244 @@
+﻿<html>
+<head>
+<title>Milonic DHTML/JavaScript Menu Sample Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+BODY{
+	FONT-FAMILY:verdana;
+	font-size:12px;
+	background-color:#FFFFFF;
+}
+
+.backG {
+	FONT-FAMILY:verdana;
+	background-color:#93c39b; 
+	color:#ffffff; 
+	border-bottom:#538c4d 2px solid;
+	font-size:12px;
+}	
+td.form1
+{
+	FONT-FAMILY:verdana;
+	background:#eaeaea;
+	font-size:12px;
+}
+
+</style>	
+</head>
+
+<body>
+		
+<!--
+	 Milonic DHTML Website Navigation Menu Version 5.0+
+	 Copyright 2006 (c) Milonic Solutions Limited (UK). All Rights Reserved.
+	 Please visit http://www.milonic.com/ for more information.
+
+	 Although this software may have been freely downloaded, you must obtain a license before using it in any production environment.		 
+	 The free use of this menu is only available for Non-Profit, Educational & Personal Web Sites who have obtained a license to use. 
+	 
+	 Free, Commercial and Corporate Licenses are available from our website.
+	 You also need to include a link back to http://www.milonic.com/ if you use the free license.
+	 
+	 All Copyright notices MUST remain in place at ALL times. 
+	 This includes the first three lines of this notice on every page that uses the menu.
+	 If you cannot comply with all of the above requirements, please contact us to arrange a license waiver.
+-->	
+
+
+
+
+
+
+
+<!-- ***** This is the section of code you need to paste into your web pages ***** -->
+<noscript><a href="http://www.milonic.com/">JavaScript Menu Powered by Milonic</a></noscript>
+<script type="text/javascript" src="milonic_src.js"></script>	
+<script type="text/javascript" src="mmenudom.js"></script>
+<!-- The next file contains your menu data, links and menu structure etc -->
+<script type="text/javascript" src="menu_data.js"></script>	
+<!-- **** JavaScript Menu HTML Code -->
+
+
+
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<u>Editing the menu</u><br>
+<ul>
+<li>To edit the menu, open the file <a href=menu_data.js>menu_data.js</a> in a text editor and edit the details inside the <b>aI()</b> text strings<br><br>
+<li>To add more menu items, just create another <b>aI()</b> string on a new line and enter your properties<br><br>
+<li>add a <b>showmenu=<i>MENUNAME;</i></b> property if you want this menu to open a sub menu<br><br>
+<li>To Add more menus, copy another menu and paste it inside your data file. A menu starts: <b>with(milonic=new menuname("<i>MENUNAME</i>")){</b> and ends: <b>}</b><br><br>
+<LI>Any problems, visit http://www.milonic.com/forum. Beginners guide is at <a href=http://www.milonic.com/beginner.php>http://www.milonic.com/beginner.php</a><br><br>
+	<li>To get the menu onto your website, insert the following HTML into each page using the menu:
+		<pre>
+&lt;noscript&gt;&lt;a href=&quot;http://www.milonic.com/&quot;&gt;JavaScript Menu Powered by Milonic&lt;/a&gt;&lt;/noscript&gt;			
+&lt;script type=&quot;text/javascript&quot; src=&quot;milonic_src.js&quot;&gt;&lt;/script&gt; 
+&lt;script type=&quot;text/javascript&quot; src=&quot;mmenudom.js&quot;&gt;&lt;/script&gt; 
+&lt;!-- The next file contains your menu data, links and menu structure etc --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;menu_data.js&quot;&gt;&lt;/script&gt;
+</pre>
+</ul>
+ 
+<HR>
+Links to other menu demos are:
+<ul>
+<li><a href=extras/dynamic_menus_API/index.html>Dynamic Menu Building API</a></li>
+<li><a href=extras/tooltips/index.html>Tooltips</a></li>
+<li><a href=extras/listbased_menu/index.html>DHTML Menu based on HTML Lists</a></li>
+<li><a href=extras/frames_menu/index.htm>Frames based menu for version 5.0</a></li>
+<li><a href=extras/php_based_menu/index.php>Menu built using PHP - You'll need PHP for this</a></li>
+<li><a href=extras/xml_based_menu/index.php>Menu built using XML - You'll need PHP for this</a></li>
+</ul>
+ 
+<HR>
+
+<p>	
+Please note that users of Microsoft Windows XP with <b>Service Pack 2</b> will need to unblock this page in order to see the menu. 
+The reason for this is due to the fact that the menu has been written in JavaScript. 
+This feature is considered unsafe when used locally and Service Pack 2 now blocks this by default for your safety. 
+This only happens when you run the menu on a local machine, live use on the Internet will not be affected. 
+Milonic Solutions Ltd assure you that there is absolutely no danger of allowing content from the DHTML Menu provided it has been downloaded from www.milonic.com
+<br>
+<br>
+
+For instructions on removing the forced popup message, please visit <a href=http://www.milonic.com/removelink.php>http://www.milonic.com/removelink.php</a>
+
+<br>
+<br>
+For information on menu properties, please see <a href=http://www.milonic.com/menuproperties.php>http://www.milonic.com/menuproperties.php</a> <br>
+For information on menu item properties, please see <a href=http://www.milonic.com/itemproperties.php>http://www.milonic.com/itemproperties.php</a> <br>
+For information on style properties, please see <a href=http://www.milonic.com/styleproperties.php>http://www.milonic.com/styleproperties.php</a> <br>
+<br>
+Installation instructions - <a href=docs/install.html>install.html</a><br>
+How to build menus - <a href=docs/howtobuild.html>howtobuild.html</a><br>
+Read Me - <a href=docs/readme.html>readme.html</a><br>
+License Details - <a href=docs/license.html>license.html</a><br>
+</p>
+<br>
+<br>
+
+<script language=javascript>
+function setValue()
+{
+	_mn=getMenuByName("Main Menu")
+	clearTimeout(_fS)
+_fS=_n
+	
+	if(document.f1.topStart.value){
+		_m[_mn][19]=parseInt(document.f1.topStart.value)
+		fsp="followscroll='"+_m[_mn][19]
+	}
+	
+	_rate=2
+	if(document.f1.Rate.value>-1){	
+		_rate=parseInt(document.f1.Rate.value)
+		if(_rate==0){
+			alert("Minimum value for Rate is 1")	
+			_rate=1
+			document.f1.Rate.value=1
+		}
+		
+		fsp+=","+_rate
+	}
+	
+	_cycles=50
+	if(document.f1.Cycles.value>-1){
+		_cycles=parseInt(document.f1.Cycles.value)
+		fsp+=","+_cycles
+	}
+	if(_rate==2 && _cycles==50)fsp="followscroll='"+_m[_mn][19]
+	fsp+="';"
+	document.f1.parameter.value=fsp
+	$X(_mn,_cycles,_rate)
+
+}
+</script>
+
+<table cellSpacing=0 cellPadding=13  border=0 style=";border:1px solid #aaaaaa">
+	<tr>
+		<td class=backG align=center>
+		<b>Follow Scrolling Style Menu</td>
+	</tr>
+
+	<tr>
+<td class=form1>
+The <b><i>Follow Scrolling Style Menu</i></b> sample shows how you can 
+have a menu item remain with the user as they scroll down 
+the page.<p>This feature can be applied to both Horizontal 
+and Vertical menus and is indicated by a 1 (one) for Scroll 
+and 0 (zero) for no scroll inside the menu_data.js file.</p>
+<p>If you scroll down the page the menu should remain in 
+view but will move up to the top of the page, this is 
+indicated by the 1 in the above text.</p>
+<p>If you need the menu to remain in exactly the same 
+position regardless of page scroll position you would need 
+to enter the Top position in which you would like the menu 
+to remain whilst scrolling occurs. You can enter a value in the 
+space provided to see this in action. The default Top 
+position form this menu is 200 Pixels.</p>
+<form name=f1 onsubmit="return false;">
+<table>
+	<tr>
+		<td>Top start position in pixels.</td>
+		<td><input type="text" name="topStart" size="5" value=1 style="text-align: right"></td>
+	</tr>
+	
+	<tr>
+		<td>Rate in pixels</td>
+		<td><input type="text" name="Rate" size="5" value=2 style="text-align: right"></td>
+	</tr>                     
+	
+	<tr>
+		<td>Cycles In milliseconds</td>
+		<td><input type="text" name="Cycles" size="5" value=50 style="text-align: right"></td>
+	</tr>
+
+	<tr>
+		<td>FollowScroll Parameter</td>
+		<td><input type="text" name="parameter" size="20" disabled value="followscroll='1';"></td>
+	</tr>
+
+	
+	<tr>
+		<td colspan=2 align=center><input type="button" value="Update Values" onClick="setValue()"></td>
+	</tr>
+	
+	
+	
+</table>
+</form>
+
+Top Start position is where the menu will start scrolling from. a value of zero will only start the menu scrolling once there is no space at the top of the browser window. A value of 100 will start scrolling once the menus top position reaches 100 pixels.<br>
+<br>
+Cycles is based on the number of times the followscroll code is executed per second. The value you need to declarer for cycles is in milliseconds. For example, a value of 1000 is equivalent to 1 second, 500 is half of one second and 100 is one tenth of a second. By default the menu system will normally set this value to 50 so that the function is executed 20 times per second. A lower value for cycles makes the scrolling more smoother at the cost of more processing power. A higher values will make the scrolling appear to jump more making the scrolling appear less smooth but not use as much processing power.<br>
+<br>
+Rate is the amount of movement made per cycle. 
+It's almost like the number of pixels to move per cycle but this value will change depending on how far away the menu is. 
+We set this to 2 by default. A higher number will make the menu move slower. A lower number will make the menu move faster. 
+Note that setting this value to 1 will cause the menu to jump directly to it's position without any scrolling. 
+This means that the smallest value that you can declare for scrolling is a rate of 2. A value of 1 is permitted but this will remove the ability for scrolling to take place.<br>
+<br>
+
+</td>
+		</td>
+	</tr>
+		
+</table>
+
+
+</body>
+</html>

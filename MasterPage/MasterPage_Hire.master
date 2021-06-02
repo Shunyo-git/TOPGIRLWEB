@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_Hire.master.cs"
+    Inherits="MasterPage_MasterPage_Hire" %>
+<%@ Register Src="../Template/inc_MainTitleMenuBar.ascx" TagName="inc_MainTitleMenuBar"
+    TagPrefix="uc1" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome to TOP GIRL</title>
+    <link href="/css/topgirl.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/script/topgirl.js"></script>
+
+    <asp:contentplaceholder id="HeadPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+</head>
+<body onload="MM_preloadImages('/img/hire/send_1.gif')">
+    <form id="form1" runat="server">
+        <div>
+            <table width="1003" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td background="/img/share/bg.gif">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <uc1:inc_MainTitleMenuBar ID="Inc_MainTitleMenuBar1" runat="server" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td height="504" valign="top">
+                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </td>
+                                            <td width="228" rowspan="2">
+                                                <img src="/img/hire/right_pic.jpg" width="228" height="527" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="/img/share/by.gif" width="165" height="23" /></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

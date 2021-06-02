@@ -1,0 +1,295 @@
+ 
+body 
+{
+	MARGIN-TOP: 0px; 
+	FONT-SIZE: 12px; 
+	BACKGROUND: #D0DCC4; 
+	scrollbar-face-color: #D8E2E7;
+    scrollbar-shadow-color: #D8E2E7;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #96AABD;
+    scrollbar-darkshadow-color: #96AABD;
+    scrollbar-track-color: #C2CACF;
+    scrollbar-arrow-color: 606D79;
+	
+	/*
+	SCROLLBAR-FACE-COLOR: #48b46c;
+	SCROLLBAR-HIGHLIGHT-COLOR: #48b424;
+	SCROLLBAR-SHADOW-COLOR: #48b424;
+	SCROLLBAR-3DLIGHT-COLOR: #48b424;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #90d890;
+	SCROLLBAR-DARKSHADOW-COLOR: #799ae1
+	*/
+	}
+
+
+
+TD
+{
+	font-size: 12px;
+	
+}
+.ColumnTD
+{
+	font-size: 12px;
+	color: #336600;
+	height: 25px;
+	
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SPAN {
+	FONT-SIZE: 12px; POSITION: static
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover { color:#428EFF;text-decoration:underline; }
+ 
+
+A.highlight {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.highlight:hover {
+	COLOR: red
+}
+A.thisclass {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.thisclass:hover {
+	FONT-WEIGHT: bold
+}
+A.navlink {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:hover {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.twidth {
+	WIDTH: 760px
+}
+.content {
+	FONT-SIZE: 14px; MARGIN: 5px 20px; LINE-HEIGHT: 140%; FONT-FAMILY: Tahoma,²Ó©úÅé
+}
+.aTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px
+}
+TD.forumHeaderBackgroundAlternate
+{
+    background-image: url(/Admin/image/admin_top_bg.gif);
+    color: #000000;
+    background-color: #799ae1;
+}
+#TableTitleLink A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#TableTitleLink A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.Forumrow {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #F1F3F5; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.MainTitle
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #669933;
+}
+.TH
+{
+    font-weight: bold;
+    font-size: 13px;
+    background-image: url(/Admin/image/h3.gif);
+    color: #336600;
+    background-color: #4455aa;
+}
+
+TD.bodytitle {
+	BACKGROUND-IMAGE: url(/Admin/image/admin_bg_2.gif)
+}
+TD.bodytitle1 {
+	BACKGROUND-IMAGE: url(/Admin/image/admin_bg_3.gif)
+}
+TD.tablebody1 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #bebbdb; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+ .ForumrowHighLight {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #E4EDF9; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.MainTableBorder
+{
+	border-right: #669933 1px solid;
+	border-top: #669933 1px solid;
+	border-left: #669933 1px solid;
+	width: 790px;
+	border-bottom: #669933 1px solid;
+	background-color: #ffffff;
+}
+.tableBorder
+{
+	border-right: #669933 1px solid;
+	border-top: #669933 1px solid;
+	border-left: #669933 1px solid;
+	width: 98%;
+	border-bottom: #669933 1px solid;
+	background-color: #ffffff;
+}
+.tableBorder1 {WIDTH: 98%; }
+.helplink {
+	FONT: 10px verdana,arial,helvetica,sans-serif; CURSOR: help; TEXT-DECORATION: none
+}
+.copyright {
+	PADDING-RIGHT: 1px; BORDER-TOP: #6595d6 1px dashed; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 11px verdana,arial,helvetica,sans-serif; COLOR: #4455aa; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+ 
+#mouseoverstyle {
+	BACKGROUND-COLOR: #C9D5E7; margin:2px; padding:0px; border:#597DB5 1px solid;
+	}
+#mouseoverstyle A {
+	COLOR: black
+}
+.menuitems{
+	margin:2px;padding:1px;word-break:keep-all;
+}
+ 	.tableBorder1
+{
+	border-right: 1px;
+	border-top: 1px;
+	border-left: 1px;
+	width: 98%;
+	border-bottom: 1px;
+	background-color: #339900;
+}
+ 	 
+	 
+.ItemHeader
+{
+	font-size: 12px;
+	background-image: url(/Admin/image/h3.gif);
+	color: white;
+	background-color: #4455aa;
+}
+#ItemHeader A { COLOR: #FFFFFF; TEXT-DECORATION: none; }
+#TableTitleLink A:hover { COLOR: #FFFFFF; TEXT-DECORATION: underline; }
+
+.grid-header a:active
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.grid-header a:link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.grid-header a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.grid-header a:hover
+{
+	color: mediumblue;
+	text-decoration: none;
+}
+.grid-header
+{
+	 
+	font-size: 13px;
+	vertical-align: baseline;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 25px;
+}
+.fg {
+	 color:green;
+	 cursor:hand;
+	text-decoration:underline;
+	}
+	
+FIELDSET
+{
+	border-right: #84be3c 1px solid;
+	border-top: #84be3c 1px solid;
+	border-left: #84be3c 1px solid;
+
+	border-bottom: #84be3c 1px solid;
+}
+LEGEND
+{
+	color: #336600;
+}
+.invtext {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #336600;
+	text-decoration: none;
+}
+
+
+
+.input-warn
+{
+	border-right: #cc0000 1px solid;
+	border-top: #cc0000 1px solid;
+	border-left: #cc0000 1px solid;
+	border-bottom: #cc0000 1px solid;
+}
+.input-warn-content
+{
+	border-right: #cc0000 1px solid;
+	border-top: #cc0000 1px solid;
+	border-left: #cc0000 1px solid;
+	border-bottom: #cc0000 1px solid;
+}
+.input-ok
+{
+	border-right: #009900 1px solid;
+	border-top: #009900 1px solid;
+	border-left: #009900 1px solid;
+	border-bottom: #009900 1px solid;
+}
+.input-ok-content
+{
+	border-right: #009900 1px solid;
+	border-top: #009900 1px solid;
+	border-left: #009900 1px solid;
+	border-bottom: #009900 1px solid;
+}
+.input-warn-content
+{
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	margin: 4px;
+	padding-top: 4px;
+	background-color: #ffcccc;
+}
+.input-ok-content
+{
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	margin: 4px;
+	padding-top: 4px;
+	background-color: #ccffcc;
+}
+.input-text
+{
+	color: #990000;
+}

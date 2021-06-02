@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/index.aspx" title="TOP GIRL"  description="TOP GIRL 網站首頁" roles="*"  >
+
+		<siteMapNode title="網站管理後台" url="~/Admin/Index.aspx" description="網站設定及管理後台" roles="*" >
+			<siteMapNode title="首頁輪播圖片" url="~/Admin/HomePageImage.aspx" description="首頁輪播圖片設定" />
+			
+			<siteMapNode title="MiniSite管理" url="~/Admin/MiniSiteList.aspx" description="MiniSite列表">
+				<siteMapNode title="新增與修改" url="~/Admin/MiniSiteModify.aspx" description="MiniSite新增與修改"  />
+				<siteMapNode title="詳細內容" url="~/Admin/MiniSiteDetail.aspx" description="MiniSite詳細內容"/>
+			</siteMapNode>
+			
+			<siteMapNode title="活動訊息管理" url="~/Admin/EventList.aspx" description="活動訊息列表">
+				<siteMapNode title="新增與修改" url="~/Admin/EventModify.aspx" description="活動訊息新增與修改"  />
+				<siteMapNode title="詳細內容" url="~/Admin/EventDetail.aspx" description="活動訊息詳細內容"/>
+			</siteMapNode>
+			
+			<siteMapNode title="商品分類管理" url="~/Admin/CategoryList.aspx" description="商品分類列表"  >
+				<siteMapNode title="新增與修改" url="~/Admin/CategoryModify.aspx" description="商品分類新增與修改"  />
+				<siteMapNode title="詳細內容" url="~/Admin/CategoryDetail.aspx" description="商品分類詳細內容"/>
+			</siteMapNode>
+			
+			<siteMapNode title="商品管理" url="~/Admin/ProductList.aspx" description="商品列表"  >
+				<siteMapNode title="新增與修改" url="~/Admin/ProductModify.aspx" description="商品新增與修改"    />
+				<siteMapNode title="詳細內容" url="~/Admin/ProductDetail.aspx" description="商品詳細內容"/>
+			</siteMapNode>
+			
+			<siteMapNode title="桌布管理" url="~/Admin/Desktop.aspx" description="桌布管理"  />
+			
+			<siteMapNode title="螢幕保護程式管理" url="~/Admin/Screen.aspx" description="螢幕保護程式管理" />
+			
+			<siteMapNode title="會員管理"  url="~/Admin/MemberList.aspx"  description="會員列表" >
+				<siteMapNode title="會員內容" url="~/Admin/MemberDetail.aspx" description="會員詳細內容"/>
+			</siteMapNode>
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
